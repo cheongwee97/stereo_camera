@@ -16,6 +16,7 @@ Press q to exit.
 
 Stage 2 (Calibrating Camera and undistorting image):
 Run calibrate.py
+The returned values after calibration are stored in right_camera and left_camera
 
 Stage 3 (Creating depth image):
 Run disparity.py, adjust trackbar to tune StereoSGBM_create parameters.
