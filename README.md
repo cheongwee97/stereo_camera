@@ -14,8 +14,8 @@ Personally, I just kept trying different ports until it ultimately wor
 
 
 ## Stage 1 (Taking required images):
-- To take images for calibration, comment lines, 19,20,21,30,31,32 and uncomment lines 18 and 29 in capture.py, run code, and hit enter to take an image. </br>
-- To take stereo images, undo the step above and likewise hit enter to take an image. Fill in the filename for the left and right images. </br>
+- To take images for calibration, comment lines, 19,20,21,30,31,32 and uncomment lines 18 and 29 in capture.py, run code, </br> and hit enter to take an image.
+- To take stereo images, undo the step above and likewise hit enter to take an image. Fill in the filename for the left and right images. 
 - Press q to exit.
 
 ## Stage 2 (Calibrating Camera and undistorting image):
@@ -28,4 +28,5 @@ Stage 3 (Creating depth image):
 - Additionally, I've added the Tsukuba_L and Tsukuba_R images as a control (Change (imgL,imgR) to (TsuL,TsuR) on line 70,72 and 73)
 
 ## Final thoughts:
-<p> The result for my depth image was a little disappointing and my current level of knowledge limits me to what went wrong, it'll be nice if someone could try out my project and educate me on what went wrong. Otherwise, I would want to proceed onto producing point clouds soon, and all in all, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers! </p>
+The result for my depth image was a little disappointing and my current level of knowledge limits me to what went wrong,
+it'd be nice if someone could try out my codes and educate me on what went wrong. Otherwise, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers!
