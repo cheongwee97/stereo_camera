@@ -18,9 +18,10 @@ def calibrate(camera,boardSize): #left or right camera
     objpoints = [] # 3d point in real world space
     imgpoints = [] # 2d points in image plane.
 
-    images = glob.glob('image_data/' + camera + '/*.jpg')
+    images = glob.glob('image_data/' + camera + '/*.png')
 
     for fname in images:
+        print(fname)
         img = cv2.imread(fname)
         gray = cv2.cvtColor(img,cv2.COLOR_BGR2GRAY)
 
