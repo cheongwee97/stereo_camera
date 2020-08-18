@@ -2,7 +2,7 @@
 
 In this project, I try to construct a homemade stereo camera, made up of 2 budget webcams that I've purchased at Sim Lim Square, taped onto 2 rulers so that I will be able to keep the cameras in a fixed posture and as aligned as possible.
 
-![My camera](my_camera.jpg =100x200)
+<img src="my_camera.jpg" alt="DIY Stereo Camera" width="400" height="500">
 
 The cameras are both connected through a USB 2.0 hub, which poses an issue of limited USB bandwidth.
 
@@ -34,4 +34,4 @@ Stage 3 (Creating depth image):
 
 Final thoughts:
 
-    The result for my depth image was a little disappointing and my current level of knowledge limits me to what went wrong, it'll be nice if someone could try out my project and educate me on what went wrong. Otherwise, I would want to proceed onto producing point clouds soon, and all in all, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers!
+   The result for my depth image was a little disappointing and my current level of knowledge limits me to what went wrong, it'll be nice if someone could try out my project and educate me on what went wrong. Otherwise, I would want to proceed onto producing point clouds soon, and all in all, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers!
