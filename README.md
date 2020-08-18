@@ -22,7 +22,7 @@ Personally, I just kept trying different ports until it ultimately wor
 - Run calibrate.py
 - The returned values after calibration are stored in right_camera and left_camera
 
-Stage 3 (Creating depth image):
+## Stage 3 (Creating depth image):
 - Run disparity.py, adjust the trackbar to tune StereoSGBM_create parameters.
 - Press q to exit (parameters will be saved into StereoSGBM_parameters.npy)
 - Additionally, I've added the Tsukuba_L and Tsukuba_R images as a control (Change (imgL,imgR) to (TsuL,TsuR) on line 70,72 and 73)
