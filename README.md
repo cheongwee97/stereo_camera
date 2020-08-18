@@ -7,9 +7,7 @@ The stereo camera is made up of 2 budget webcams that I've purchased at
 <img src="my_camera.jpg" alt="DIY Stereo Camera" width="400" height="500">
 
 The cameras are both connected through a USB 2.0 hub, which poses an issue of limited USB bandwidth.
-
 Here is a link for a clearer explanation https://www.zonetrigger.com/articles/USB-overload/USB-bandwidth-troubleshooting.php.
-
 Personally, I just kept trying different ports until it ultimately worked.
 
 
