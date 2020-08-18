@@ -26,4 +26,4 @@ Personally, I just kept trying different ports until it ultimately wor
 - Additionally, I've added the Tsukuba_L and Tsukuba_R images as a control </br> (Change (imgL,imgR) to (TsuL,TsuR) on line 70,72 and 73)
 
 ## Final thoughts:
-The result for my depth image was a little disappointing and my current level of knowledge limits me to what </br> went wrong, it'd be nice if someone could try out my codes and educate me on what went wrong. </br> Otherwise, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers!
+The result for my depth image was a little disappointing and my current level of knowledge limits me to what </br>went wrong, it'd be nice if someone could try out my codes and educate me on what went wrong. </br> Otherwise, I had a great time reading up and applying cv knowledge that I've acquired last semester. Cheers!
